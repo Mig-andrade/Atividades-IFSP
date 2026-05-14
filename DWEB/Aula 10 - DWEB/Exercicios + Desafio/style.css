@@ -1,0 +1,35 @@
+
+#desafio-body {
+    background-image: url("img/img3.png");
+    background-size: cover;
+}
+.bg-light-blue {
+    background-color: rgb(61, 161, 255);
+}
+
+.bg-light-yellow {
+    background-color: rgb(242, 255, 61);
+}
+
+.bg-light-green {
+    background-color: rgb(58, 255, 101);
+}
+
+.col-2-5 {
+    width: 20% !important;
+}
+
+.menu-nav {
+    gap: 2rem;
+}
+@media (max-width: 768px) {
+    .menu-nav {
+        gap: 1rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
+}

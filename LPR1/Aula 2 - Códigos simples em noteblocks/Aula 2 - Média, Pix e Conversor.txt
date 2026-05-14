@@ -1,0 +1,73 @@
+Cálculo de Média:
+
+INÍCIO:
+
+ >Inserir nota 1;
+ >Ler nota 1;
+ >Inserir nota 2;
+ >Ler nota 2;
+ >Inserir nota 3;
+ >Ler nota 3;
+ >Somar (nota 1, nota 2 e nota 3) e dividir por 3 para conseguir a média;
+ >Retornar a média.
+
+FIM
+
+CASO DE TESTE 1:
+
+  #include <stdio.h>
+
+int main()
+{
+     double nota1;
+     double nota2;
+     double nota3;
+     double media;
+
+  printf("Calculadora de Média - Insira a nota 1.\n");
+  scanf("%lf", &nota1);
+  printf("Calculadora de Média - Insira a nota 2.\n");
+  scanf("%lf", &nota2);
+  printf("Calculadora de Média - Insira a nota 3.\n");
+  scanf("%lf", &nota3);
+  media = (nota1 + nota2 + nota3) / 3;
+  printf("Média das notas: %.3f ", media);
+ 
+}
+
+
+Pix:
+
+INÍCIO: 
+
+>Gerar chave pix ou QRCODE;
+>Inserir chave pix ou ler QRCODE;
+>Checar se a chave pix/QRCODE é válido;
+>Checar se o usuário possui saldo suficiente para o envio do Pix;
+>Realizar o pagamento;
+>Descontar do saldo do usuário;
+>Gerar boleto.
+ 
+FIM
+
+Conversor de temperatura Celsius-Fahrenheit:
+
+INÍCIO:
+
+>Inserir temperatura em Celsius;
+>Ler temperatura e salvar em variável.
+>Realizar a conversão - > (C x 1.8) + 32
+>Mostrar resultado convertido na tela.
+
+FIM:
+
+CASO DE TESTE:
+
+>Celsius = 30;
+>Scan -> salvar em váriavel Celsius
+>Calcular -> (30 x 1.8) + 32 = 76
+>Mostrar na tela -> 76 Fº
+
+
+
+

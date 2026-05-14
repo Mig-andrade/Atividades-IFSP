@@ -1,0 +1,24 @@
+ENTRADA:
+
+Valor inicial, e porcentagem do desconto
+
+PROCESSAMENTO: 
+
+Valor inicial, x (porcentagem do desconto/100) = Valor do desconto
+Valor final: Valor - Valor do desconto
+
+SAÍDA: Valor final
+
+CASO DE TESTE 1:
+
+Valor inicial  = 100
+Desconto = 15%
+Valor do desconto: 100 x 0.15 = 15
+Valor final: 100 - 15 = 85
+
+CASO DE TESTE 2:
+
+Valor inicial  = 250
+Desconto = 25%
+Valor do desconto: 250 x 0.25 = 62.5
+Valor final: 250 - 62,5 = 187,5

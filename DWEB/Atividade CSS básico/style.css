@@ -1,0 +1,179 @@
+ #container {
+    width: 100%;
+ }
+
+ #atencao {
+    color: red;
+ }
+
+ body {
+    width: 100vw;
+    margin-left: 0.5vw;
+    height: 100vh;
+ }
+
+ html {
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+ a {
+    text-decoration: none;
+ }
+
+ #headername {
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+ }
+
+ #nav {
+    font-size: 25px;
+    padding: 30px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ .dropdown {
+    position: relative;
+ }
+
+ .dropbtn {
+    font-size: 50px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    margin-right: 60px;
+    height: 90px;
+    transition: 0.7s;
+    cursor: pointer;
+   
+ }
+
+ .dropdown:hover .dropbtn {
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+ }
+
+ .dropdowncontent {
+    position: absolute;
+    min-width: 90px;
+    right: 0;
+    border-radius: 0px 0px 15px 15px;
+    width: 90px;
+    top: 100%;
+    margin-right: 60px;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: width 0.7s ease, opacity 0.7s ease, visibility 0s linear 0.7s;
+ }
+
+ .dropdowncontent a {
+    display: block;
+    padding: 15px;
+    color: white;
+       transition: 0.3s;
+    text-decoration: none;
+ }
+
+ .dropdowncontent a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+ }
+
+ .dropdown:hover .dropdowncontent {
+    opacity: 1;
+    visibility: visible;
+    width: 200px;
+    transition: width 0.7s ease, opacity 0.7s ease;
+ }
+
+ .dropdown:hover a {
+   color: black;
+ }
+
+ #sectioncontent {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+ }
+
+ .projeto {
+    width: 500px;
+    text-align: center;
+ }
+
+ .navlink {
+    padding: 20px;
+    color: black;
+
+ }
+
+ #container {
+    margin-left: 2%;
+ }
+
+ #sectiontitle {
+    text-align: center;
+    margin: 50px;
+
+ }
+
+ .sectionp {
+    text-align: center;
+    margin-bottom: 55px;
+ }
+
+ .sectionsubtitle {
+    text-align: center;
+ }
+
+ .sectionimage {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: auto;
+
+ }
+
+ #hobbies {
+    margin-bottom: 30px;
+ }
+
+ #imagem {
+    margin-bottom: 15px;
+    width: 250px;
+    transition: 1s;
+ }
+
+
+ #imagem:hover {
+    width: 300px;
+ }
+
+
+ #nome {
+    margin-bottom: 20px;
+ }
+
+ #email {
+    margin-bottom: 20px;
+ }
+
+ .linha {
+    display: block;
+ }

@@ -1,0 +1,299 @@
+1. Ler nome
+
+IPO: 
+
+Entrada: nome
+Processamento: ler nome
+Saída: mostrar nome
+
+Teste: ler Miguel -> mostrar Miguel
+
+Início
+
+string nome;
+
+Escrever("Escreva seu nome:");
+Ler(nome);
+Escrever("Olá, " nome);
+
+Fim
+
+Teste 1:
+
+Entrada: Miguel
+Processamento: ler nome (Miguel)
+Saída: Miguel
+
+Teste 2:
+
+Entrada: Laura
+Processamento: ler nome (Laura)
+Saída: Laura
+
+
+
+2. Soma
+
+IPO: 
+
+Entrada: numero1, numero2
+Processamento: numero1 + numero2 = soma
+Saída: mostrar soma
+
+Teste: 5 e 6 -> 11
+
+Início
+
+double numero1, numero2, soma;
+
+Escrever("Digite o número 1:");
+Ler(numero1);
+Escrever("Digite o número 2:");
+Ler(numero2);
+soma = numero1 + numero2;
+Escrever("O resultado é " soma);
+
+Fim
+
+Teste 1:
+
+Entrada: 10, 5
+Processamento: 10 + 5 = 15
+Saída: 15
+
+Teste 2:
+
+Entrada: 7.5, 12.5
+Processamento: 7.5 + 12.5 = 20
+Saída: 20
+
+
+
+3. Média
+
+IPO: 
+
+Entrada: numero1, numero2, numero3
+Processamento: (numero1 + numero2 + numero3) / 3 = media
+Saída: mostrar media
+
+Teste: 5, 6 e 7 -> media = 6
+
+Início
+
+double numero1, numero2, numero3, media
+
+Escrever("Digite o número 1:");
+Ler(numero1);
+Escrever("Digite o número 2:");
+Ler(numero2);
+Escrever("Digite o número 3:");
+Ler(numero3);
+media = (numero1 + numero2 + numero3) / 3
+Escrever("O resultado é " media);
+
+Fim
+
+Teste 1:
+
+Entrada: 10, 5, 7
+Processamento: (10 + 5 + 7) / 3 = 7.33
+Saída: 7.33 (aproximado)
+
+Teste 2:
+
+Entrada: 8, 3, 4
+Processamento: (8 + 3 + 4) / 3 = 5
+Saída: 5 
+
+
+4. Área do retângulo
+
+IPO: 
+
+Entrada: base, altura
+Processamento: base * altura = area
+Saída: mostrar area
+
+Teste: 10 e 25 -> area = 250
+
+Início
+
+double base, altura, area;
+
+Escrever("Digite o valor da base:");
+Ler(base);
+Escrever("Digite o valor da altura");
+Ler(altura);
+area = base * altura;
+Escrever("O resultado é " area);
+
+Fim
+
+Teste 1:
+
+Entrada: 8, 5
+Processamento: 8 * 5 = 40
+Saída: 40
+
+Teste 2:
+
+Entrada: 15, 10
+Processamento: 15 * 10 = 150
+Saída: 150
+
+
+
+5. Conversor Celsius -> Fahrenheit
+
+IPO: 
+
+Entrada: celsius
+Processamento: (celsius * 9 / 5) + 32 = fahrenheit
+Saída: mostrar fahrenheit
+
+Teste: 30 -> fahrenheit = 86
+
+Início
+
+double celsius, fahrenheit
+
+Escrever("Digite o valor da temperatura em celsius:");
+Ler(celsius);
+fahrenheit = (celsius * 9/5) + 32
+Escrever("O resultado é " fahrenheit);
+
+Fim
+
+Teste 1:
+
+Entrada: 35
+Processamento: (35 * 9/5) + 32) = 95
+Saída: 95
+
+Teste 2:
+
+Entrada: 28
+Processamento: (28 * 9/5) + 32) = 82.4
+Saída: 82.4
+
+
+
+6. Antecessor e sucessor
+
+IPO: 
+
+Entrada: numero
+Processamento: antecessor = numero - 1, sucessor = numero + 1
+Saída: mostrar antecessor e sucessor
+
+Teste: 106 -> 105, 107
+
+Início
+
+int numero
+
+Escrever("Digite o numero:");
+Ler(celsius);
+antecessor = numero - 1
+sucessor = numero + 1 
+Escrever("O antecessor do numero é " antecessor);
+Escrever("O sucessor do numero é " sucessor);
+
+Fim
+
+Teste 1:
+
+Entrada: 201
+Processamento: antecessor = 201 - 1 = 200, sucessor = 201 + 1 = 202
+Saída: 200 e 202
+
+Teste 2:
+
+Entrada: 55
+Processamento: antecessor = 55 - 1 = 54, sucessor = 55 + 1 = 56
+Saída: 54 e 56
+
+
+
+7. Troca de valores
+
+IPO: 
+
+Entrada: a, b, valor
+Processamento: ler a, ler b, valor = a, a = b, b = valor
+Saída: mostrar a e b.
+
+Teste: a = 6, b = 9 -> b = 9, a = 6
+
+
+Início
+
+double a, b, valor
+
+Escrever("Digite o valor de A:");
+Ler(a);
+Escrever("Digite o valor de B:");
+Ler(b);
+valor = a;
+a = b;
+b = valor;
+Escrever("Após a troca, o valor de A é " a);
+Escrever("E o valor de B é " b);
+
+Fim
+
+Teste 1:
+
+Entrada: 5, 22
+Processamento: a = 5, b = 22, valor = 5 , a = 22, b = 5 (valor)
+Saída: 22, 5
+
+Teste 2:
+
+Entrada: 14, 6
+Processamento: a = 14, b = 6, valor = 14 , a = 6, b = 14 (valor)
+Saída: 22, 5
+
+
+
+
+8. Tempo
+
+IPO: 
+
+Entrada: segundos
+Processamento: ler segundos, converter em horas = segundos / 3600, converter em minutos = segundos / 60
+Saída: mostrar horas:minutos:segundos
+
+Teste: 7200 - > 2:00:00
+
+
+Início
+
+int horas, minutos, segundos, minutosfinal, segundosfinal;
+
+Escrever("Digite os segundos:");
+Ler(segundos);
+horas = segundos / 3600;
+minutos = segundos % 3600;
+minutosfinal = minutos / 60;
+segundosfinal = minutos % 60;
+
+Escrever("O horário é ", horas, ": ", minutosfinal, ":", segundosfinal);
+
+Fim
+
+Teste 1:
+
+Entrada: 7200
+Processamento: horas = 7200 / 3600 = 2, minutos = 7200 % 3600 = 0, minutosfinal = minutos / 60, segundosfinal = 0 % 60
+Saída: 2:00:00
+
+Teste 2:
+
+Entrada: 9000
+Processamento: horas = 9000 / 3600 = 2 (por ser int), minutos = 9000 % 3600 = 1800, minutosfinal = 1800 / 60, segundosfinal = 1800 % 60 = 0.
+Saída: 2:30:00
+
+

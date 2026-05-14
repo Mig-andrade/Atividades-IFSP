@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width = device-width, inital-scale = 1" />
+  <title>Minha Bio</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="nav">
+      <div class="dropdown">
+        <button class="dropbtn">☰</button>
+        <div class="dropdowncontent">
+          <a href="#hobbies" class="navlink">Hobbies</a>
+          <a href="#imagem" class="navlink">Meme</a>
+          <a href="#form" class="navlink">Formulário</a>
+          <a href="cardapio.html" class="navlink">Cardápio</a>
+          <a href="receita.html" class="navlink">Receitas</a>
+        </div>
+      </div>
+    </nav>
+    <h1 id="headername">Miguel Angelo de Andrade</h1>
+  </header>
+  <div id="container">
+    <h1>Esta é minha bio.</h1>
+    <p>Nesta página, listarei meus hobbies, interesses e conhecimentos!</p>
+    <p>Começarei listando meus hobbies.</p>
+    <ul id="hobbies">
+      <li>Jogos;</li>
+      <li>Filmes;</li>
+      <li>Desenho/Animação;</li>
+      <li>Academia;</li>
+      <li>Moda (um pouco);</li>
+      <li>Programação.</li>
+    </ul>
+    </section>
+    <img src="img/image1.jfif" alt="Imagem 1" id="imagem">
+    <h2>Contato</h1>
+      <form method="post" id="form">
+        <span class="linha">
+          <label for="nome" id="nome">Nome:</label>
+          <input type="text" id="nome" required>
+        </span>
+        <span class="linha">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        </span>
+        <button type="submit">Enviar</button>
+      </form>
+      <br>
+      <h1 id="atencao">Atenção:</h1>
+      <p>
+        As informações acima serão usadas para fins educacionais, de acordo com
+        a LGPD.
+      </p>
+  </div>
+  <main>
+    <h1 id="sectiontitle">Meus Projetos</h1>
+    <section id="sectioncontent">
+      <div class="projeto">
+        <h2 class="sectionsubtitle">Site sobre a Etec</h2>
+        <img src="img/projeto1.png" class="sectionimage">
+        <p class="sectionp">Este site mostra informações, cursos oferecidos e imagens da ETEC.</p>
+      </div>
+      <div class="projeto">
+        <h2 class="sectionsubtitle">Site sobre as Olímpiadas</h2>
+        <img src="img/projeto2.png" class="sectionimage">
+        <p class="sectionp">Este site mostra informações sobre as Olímpiadas, atletas relevantes e medalhas. </p>
+      </div>
+      <div class="projeto">
+        <h2 class="sectionsubtitle">Site sobre Oceano</h2>
+        <img src="img/projeto3.png" class="sectionimage">
+        <p class="sectionp">Este site mostra informações sobre o oceano, incluindo a fauna e flora.</p>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

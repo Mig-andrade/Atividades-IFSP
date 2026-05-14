@@ -1,0 +1,204 @@
+1)
+algoritmo "VerificaNumero"
+var
+   numero: inteiro
+inicio
+   escreva("Digite um número inteiro: ")
+   leia(numero)
+
+   se (numero > 0) entao
+      escreval("O número é Positivo.")
+   senao
+      se (numero < 0) entao
+         escreval("O número é Negativo.")
+      senao
+         escreval("O número é Zero.")
+      fimse
+   fimse
+fimalgoritmo
+
+
+
+2:
+algoritmo "ClassificaIdade"
+var
+   idade: inteiro
+inicio
+   escreva("Digite a idade: ")
+   leia(idade)
+
+   se (idade < 18) entao
+      escreval("Menor de idade.")
+   senao
+      se (idade >= 60) entao
+         escreval("Idosa.")
+      senao
+         escreval("Maior de idade.")
+      fimse
+   fimse
+fimalgoritmo
+
+
+3:
+algoritmo "CalculoMedia"
+var
+   nota1, nota2, media: real
+inicio
+   escreva("Digite a primeira nota: ")
+   leia(nota1)
+   escreva("Digite a segunda nota: ")
+   leia(nota2)
+
+   media <- (nota1 + nota2) / 2
+
+   se (media >= 6) entao
+      escreval("Média: ", media, " - Status: APROVADO")
+   senao
+      escreval("Média: ", media, " - Status: REPROVADO")
+   fimse
+fimalgoritmo
+
+
+
+4:
+algoritmo "DescontoProduto"
+var
+   preco, total, valorFinal: real
+   quantidade: inteiro
+inicio
+   escreva("Preço do produto: R$ ")
+   leia(preco)
+   escreva("Quantidade: ")
+   leia(quantidade)
+
+   total <- preco * quantidade
+
+   se (total >= 100) entao
+      valorFinal <- total * 0.90
+      escreval("Total Bruto: R$ ", total)
+      escreval("Valor com 10% de desconto: R$ ", valorFinal)
+   senao
+      escreval("Total a pagar: R$ ", total)
+   fimse
+fimalgoritmo
+
+
+
+5:
+algoritmo "ContaPares"
+var
+   i, numero, contPares: inteiro
+inicio
+   contPares <- 0
+
+   para i de 1 ate 10 faca
+      escreva("Digite o ", i, "º número: ")
+      leia(numero)
+      
+      se (numero % 2 = 0) entao
+         contPares <- contPares + 1
+      fimse
+   fimpara
+
+   escreval("Total de números pares digitados: ", contPares)
+fimalgoritmo
+
+
+6:
+
+Algoritmo "Tabuada"
+Var
+    i   : inteiro
+    num : real
+Inicio
+    Escreva("Tabuada - Digite o número:")
+    Leia(num)
+    Para i de 1 ate 10 faca
+        Escreva("Tabuada ", i, ": ",  num * i)
+    FimPara
+FimAlgoritmo
+
+
+7:
+
+Algoritmo "Soma dos positivos"
+Var
+    i   : inteiro
+    num : vetor[0..4] de real
+    soma: real
+Inicio
+    Para i de 0 ate 4 faca 
+	Escreva("Digite o número:")
+	Leia(num[i])
+	Se num[i] > 0 entao
+	  soma <- soma + num[i]
+	FimSe
+    FimPara
+    Escreva("O resultado da soma apenas dos positivos é de: ", soma)
+			
+FimAlgoritmo
+
+
+8:
+
+Algoritmo "Idades"
+Var
+    i     : inteiro
+    idade : vetor[0..7] de inteiro
+    qtd   : inteiro
+Inicio
+
+    qtd <- 0
+    Para i de 0 ate 7 faca 
+	Escreva("Digite sua idade:")
+	Leia(idade[i])
+	Se idade[i] >= 18 entao
+	  qtd <- qtd + 1
+	FimSe
+    FimPara
+    Escreva("O total de pessoas com idade acima de 18 anos é  ", qtd)
+			
+FimAlgoritmo
+
+
+
+9:
+
+Algoritmo "Fatorial"
+Var
+    i, n, fatorial: inteiro
+
+
+Inicio
+    Escreva("Digite o número inteiro positivo:")
+    Leia(n)
+    fatorial <- 1
+    Para i de 1 ate n  faca
+	fatorial <- fatorial * i
+    FimPara
+    Escreva("O fatorial de ", n, "é ", fatorial)
+			
+FimAlgoritmo
+
+
+10:
+
+Algoritmo "Soma até 0"
+Var
+    num, soma: inteiro
+
+
+Inicio
+    soma <- 0;
+    num  <- 1;
+
+    Enquanto (num != 0)
+    	Escreva("Digite um número (digite 0 para parar)")
+    	Leia(num)
+	soma <- soma + num
+    FimEnquanto
+	Escreva("A soma dos números digitados foi: ", soma)
+
+
+			
+FimAlgoritmo

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Exercícios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row justify-content-center bg-dark text-white">
+        <div class="col-md-4 col-12">
+            <nav class="d-flex justify-content-center menu-nav p-4">
+                <a class="text-white text-decoration-none" href="#textos">
+                    <h4>Textos</h4>
+                </a>
+                <a class="text-white text-decoration-none" href="#form">
+                    <h4>Formulário</h4>
+                </a>
+                <a class="text-white text-decoration-none" href="#img">
+                    <h4>Imagem</h4>
+                </a>
+                <a class="text-white text-decoration-none" href="desafio.html">
+                    <h4>Desafio</h4>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <header>
+        <div class="container mt-5">
+            <h1 class="text-center mb-3">Exercícios de Bootstrap!</h1>
+        </div>
+    </header>
+    <section>
+        <div class="row mt-2 p-5" id="textos">
+            <div class="col-12 col-md-6 text-center bg-light-blue text-white p-3">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur."
+            </div>
+            <div class="col-12 col-md-6 bg-light-green p-3">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur."
+            </div>
+        </div>
+    </section>
+    <main>
+        <fieldset class="border m-4 p-3 text-center w-75 w-md-50 mx-auto" id="form">
+            <legend class="mb-4">
+                <h2>Formulário</h2>
+            </legend>
+            <form class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" id="nome" class="form-control border-dark mx-auto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" id="email" class="form-control border-dark mx-auto" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensagem" class="form-label">Mensagem:</label>
+                            <textarea id="mensagem" class="form-control border-dark mx-auto" rows="4"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-dark w-50">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+        <div class="text-center mt-5 mb-5">
+            <img src="img/img1.png" class="img-fluid rounded w-50 border border-dark" alt="Imagem da logo do Boostrap"
+                id="img">
+        </div>
+        <div class="text-center mb-5">
+            <a href="https://getbootstrap.com/" class="btn btn-dark">Acesse o site do Bootstrap</a>
+            <a href="https://github.com/Mig-andrade" class="btn btn-dark">Acesse meu Github</a>
+        </div>
+    </main>
+    <footer class="text-center p-4 bg-dark text-white">
+        © <a class="text-white text-decoration-none" href="https://github.com/Mig-andrade">Miguel Angelo de Andrade,
+            IFSP</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
