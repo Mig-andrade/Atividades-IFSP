@@ -4,7 +4,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define tamanho 25001
+#define tamanho 50001
 
 typedef struct filaCircular {
 	int vetor[tamanho];
